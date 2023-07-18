@@ -6,14 +6,7 @@
 				<link rel="stylesheet" href="/css/style.css">
 	</head>
 	<body>
-		<!doctype html>
-<html lang='en'>
-	<head>
-		<meta charset='utf-8'>
-				<link rel="stylesheet" href="/css/style.css">
-	</head>
-	<body style='margin: 1rem;'>
-		<header>
+	<header>
 			<b><p style='font-size: 28px;'>Brahminman's Pasture</p></b>
 				<sup>Grazing land for my personal projects</sup>
 				<nav style='float: right; text-align: Left; color: green; margin-left: auto; margin-right: 1.5rem;'>
@@ -21,13 +14,34 @@
 				</nav>
 				<hr>
 		</header>
-		
-		<aside style='float: right; width: 25%; text-align: left; margin-left: auto; margin-right: 0rem; padding-left: 10px;'>
+		<aside style='float: right; width: 30%; text-align: left; margin-left: auto; margin-right: 1rem; padding-left: 10px;'>
 			<!-- Add header after "Main", "Article", & section -->
 			<p> Welcome to the Pasture! I'm building this site to showcase my personal projects. I don't know what all that will be just yet, but I'll put up blog posts to accompany everything. So building the blog is first and I think I wanna do something to embed my Mastodon feed.</p>
+			<p>Join my mailing list!</p>
+			<form action="/maillist.html/" method='get' class='maillist'>
+			<div>
+				<label>Name:</label>
+				<input type='text' id='name' placeholder='Name'>
+			</div>
+			<div>
+				<label>E-mail</label>
+				<input type='email' id='email' pattern='email' placeholder='E-mail'>
+			</div>
+			<div>
+				<input type='submit' value='submit'>
+			</div>
+			</form>
+			<a href='https://fallout.wiki/wiki/Brahmin' target='_blank' alt='Brahminman Logo'><img src='https://u.cubeupload.com/Brahm1nman/BMLogo.jpg'></a>
 		</aside>
+		<!doctype html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+				<link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body style='margin: 1rem;'>
 		<hr width=".5" size="800" style="0 auto; float: right; display: inline-block;" />
-		<Main style='margin-left: 25px; padding-right: 10px;'>
+		<Main style='margin-left: 5px;'>
 			<Article style='border-right:'>
 				<section style='font-size: 20px; margin-left: 25px;'>
 					<h1 style='margin-left: 35px;'>Welcome to my first web project!</h1>
