@@ -1,12 +1,12 @@
 main { 
-	border:1px solid #2B3441;
+	
 	padding:2.5px;
 	width:65%;
 	background-color:#E2DED8;
 }
 
 body {
-	margin: 1rem;
+	padding:5px;
 	background-color: #D3CEC4;
 }
 
