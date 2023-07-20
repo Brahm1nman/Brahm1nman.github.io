@@ -16,7 +16,15 @@ body {
 	padding:5px;
 	background-color: #D3CEC4;
 }
-
+aside {
+	float: right; 
+	width: 30%; 
+	text-align: left; 
+	margin-left: auto; 
+	margin-right: 1rem; 
+	padding-left: 10px;
+	display: inline;
+}
 h1 {
 	margin: 0px;
 	padding: 0px;
